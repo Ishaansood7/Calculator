@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- linking the stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- main heading -->
+    <h1 class="mainHeading">CALCULATOR</h1>
+
+    <!-- main container -->
+    <div class="mainContainer">
+
+        <!-- textbox -->
+        <div class="row1">
+            <input type="text" value="0" readonly class="textBox" id="text">
+        </div>
+
+        <!-- buttons -->
+        <div class="row2">
+            <input type="button" value="AC" class="btn graybtn" onclick="execute('AC')">
+            <input type="button" value="+/-" class="btn graybtn" onclick="execute('+/-')">
+            <input type="button" value="%" class="btn graybtn" onclick="execute('%')">
+            <input type="button" value="/" class="btn operator" onclick="execute('/')">
+        </div>
+
+        <div class="row3">
+            <input type="button" value="7" class="btn number" onclick="execute('7')">
+            <input type="button" value="8" class="btn number" onclick="execute('8')">
+            <input type="button" value="9" class="btn number" onclick="execute('9')">
+            <input type="button" value="*" class="btn operator" onclick="execute('*')">
+        </div>
+
+        <div class="row4">
+            <input type="button" value="4" class="btn number" onclick="execute('4')">
+            <input type="button" value="5" class="btn number" onclick="execute('5')">
+            <input type="button" value="6" class="btn number" onclick="execute('6')">
+            <input type="button" value="-" class="btn operator" onclick="execute('-')">
+        </div>
+
+        <div class="row5">
+            <input type="button" value="1" class="btn number" onclick="execute('1')">
+            <input type="button" value="2" class="btn number" onclick="execute('2')">
+            <input type="button" value="3" class="btn number" onclick="execute('3')">
+            <input type="button" value="+" class="btn operator" onclick="execute('+')">
+        </div>
+
+        <div class="row6">
+            <input type="button" value="0" class="zerobtn number" onclick="execute('0')">
+            <input type="button" value="." class="btn number" onclick="execute('.')">
+            <input type="button" value="=" class="btn operator" onclick="execute('=')">
+        </div>
+    </div>
+
+    <!-- linking js file -->
+    <script src="script.js"></script>
+</body>
+</html>

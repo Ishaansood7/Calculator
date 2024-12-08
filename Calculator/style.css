@@ -1,0 +1,60 @@
+.btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+}
+
+.zerobtn{
+    width: 104px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.operator{
+    background-color: rgb(254, 149, 5);
+    color: white;
+    font-size: larger;
+}
+
+.number{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-size: larger;
+}
+
+.graybtn{
+    background-color: rgb(165, 165 , 165);
+    color: black;
+    font-size: larger;
+}
+
+.row1, .row2, .row3, .row4, .row5, .row6{
+    margin: 10px 0px;
+}
+
+.mainContainer{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.textBox{
+    font-size: 60px;
+    text-align: center;
+    padding-left: 160px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.mainHeading{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
